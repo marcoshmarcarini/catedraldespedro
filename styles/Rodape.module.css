@@ -1,6 +1,7 @@
 .rodape{
     display: flex;
     gap: 10px;
+    font-size: 0.8rem;
 }
 .link:hover{
     color: #f39c12;
