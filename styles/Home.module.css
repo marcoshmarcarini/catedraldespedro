@@ -293,3 +293,11 @@
     transform: rotate(0deg);
   }
 }
+
+@media (max-width:500px){
+  .mainContent{
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
