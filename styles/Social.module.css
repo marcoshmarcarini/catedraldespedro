@@ -1,0 +1,32 @@
+.social{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    animation: fade-in 400ms ease-in;
+}
+
+.sociaLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sociaLink:hover{
+    box-shadow: 5px 5px 15px #ced6e0;
+    border-radius: 5px;
+    transition: all 400ms;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@keyframes fade-in {
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

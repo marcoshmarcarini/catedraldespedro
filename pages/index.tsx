@@ -3,6 +3,9 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Cards from '../components/Cards'
 import Revista from '../components/Revista'
+import Youtube from '../components/Youtube'
+import Social from '../components/Social'
+import Rodape from '../components/Rodape'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +22,9 @@ export default function Home() {
       <div className={styles.mainContent}>
         <Cards />
         <Revista />
+        <Youtube />
+        <Social />
+        <Rodape />
       </div>
     </>
   )
