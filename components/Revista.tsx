@@ -11,10 +11,10 @@ export default function Revista(){
 
     return( 
         <div className={style.card}>
-            <Link href={`revistas/Revista_O_Pescador_139.pdf`} className={style.link}>
+            <Link href={`revistas/Revista_O_Pescador_141.pdf`} className={style.link}>
                 <div>
                     <p className={style.title}>
-                        Revista: O Pescador 139 Edição Junho 2023
+                        Revista: O Pescador 141 Edição Agosto 2023
                     </p>
                     <p className={style.description}>
                         Fique por dentro das notícias da sua comunidade
